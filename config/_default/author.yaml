@@ -15,4 +15,4 @@ social:
   # twitter:
   # patreon: razonyang
   # paypal: razonyang
-  rss: "" # Remove RSS
+  rss: "default.xml" # Remove RSS
