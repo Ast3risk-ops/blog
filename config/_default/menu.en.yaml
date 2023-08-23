@@ -1,6 +1,11 @@
-# main:
-  # - name: Documentations
-    # identifier: documentations
-    # url: https://hbs.razonyang.com/v1/en/docs/
-    # params:
-      # icon: '<i class="fas fa-fw fa-book"></i>'
+main:
+  - name: Source Code
+    identifier: source
+    url: https://github.com/ast3risk-ops/blog
+    params:
+      icon: '<i class="fab fa-github"></i>'
+  - name: My Website
+    identifier: site
+    url: https://asterisk.shinken.studio
+    params:
+      icon: '<i class="fas fa-globe"></i>'
