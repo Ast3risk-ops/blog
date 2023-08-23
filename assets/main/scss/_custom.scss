@@ -1,8 +1,7 @@
 .sidebar {
-    .profile {
-        position: sticky !important;
-        top: 84px;
-        order: 5;
-    }
+    .post-toc {
+      position: sticky !important;
+      top: 84px;
+      order: 4;
+     }
 }
-
