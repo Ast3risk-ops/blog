@@ -19,5 +19,11 @@ authors:
 images: []
 ---
 
+# We're open!
 
-# MMMMMM
+This has been interesting.
+
+
+So I finally got this up and customized, god what a chore.
+
+I'll start moving my old hashnode posts over here soon.
