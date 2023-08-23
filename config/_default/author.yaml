@@ -3,7 +3,7 @@ avatar: images/asterisk_ext.png # Avatar image. Default to "images/profile.webp"
 bio: 'Canadian Linux Nerd'
 # company:  # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
 location: <a href="https://en.wikipedia.org/wiki/Canada" target="_blank" rel="noopener noreferrer">Canada</a> # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
-# about: https://razonyang.com # The external about page. The internal about page will be used if not set.
+about: https://asterisk.shinken.studio/#socials # The external about page. The internal about page will be used if not set.
 params: {
   # layout: compact
 }
