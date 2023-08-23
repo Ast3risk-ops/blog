@@ -5,7 +5,7 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: My cool blog
+description: My nerdy blog.
 keywords: Blog
 # images:
 #   - site-feature-image.jpg
@@ -244,8 +244,8 @@ contact:
   endpoint: https://getform.io/f/47d9f422-3da7-40f3-8cc4-6751e82032c5 # Backend endpoint, remove this line if you're using Netlify.
   file: true # Enable file upload
   # fileField: image # The name of file field.
-  reCaptcha:
-    siteKey: "6LdZ1sMnAAAAAFcuVoni5rQngRLQwTkCpYtHPPeS"
+  # reCaptcha:
+    # siteKey: ""
 
 repo:
   url: https://github.com/ast3risk-ops/blog
