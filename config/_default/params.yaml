@@ -69,7 +69,7 @@ countTaxonomyPosts: true # Count posts of taxonomy.
 
 # sidebarTaxonomies: [categories, tags, series] # The order of taxonomies on the sidebar.
 
-# pinnedPost: false # Turn on/off pinned posts.
+pinnedPost: true # Turn on/off pinned posts.
 pinnedPostCount: 3 # The number of pinned posts.
 
 # Custom CSS and JS
@@ -203,7 +203,7 @@ search:
   # indexName: ""
   # debug: true
 
-reward:
+# reward:
   #alipay: images/reward/alipay.png
   #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
