@@ -5,17 +5,17 @@ mainSections:
 
 # titleSeparator: '|' # Title separator. Default to -.
 
-description: An extreme fast, responsive and feature-rich blog theme for Hugo
-keywords: Hugo, Bootstrap, Blog Theme
+description: My cool blog
+keywords: Blog
 # images:
 #   - site-feature-image.jpg
 
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
 
-# logo: images/logo.png # Logo image. Default to images/logo.webp.
+logo: images/asterisk_ext.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+brand: The * Blog
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
@@ -138,10 +138,10 @@ siteVerification:
   shenma: 
 
 creativeCommons:
-  # by: true # Credit must be given to you, the creator.
-  # nc: true # Only noncommercial use of your work is permitted.
-  # nd: true # No derivatives or adaptations of your work are permitted.
-  # sa: true # Adaptations must be shared under the same terms.
+  by: true # Credit must be given to you, the creator.
+  nc: true # Only noncommercial use of your work is permitted.
+  nd: false # No derivatives or adaptations of your work are permitted.
+  sa: true # Adaptations must be shared under the same terms.
 
 # utterances:
   # repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
@@ -170,10 +170,10 @@ creativeCommons:
 
 # See https://giscus.app
 giscus:
-  repo: "razonyang/hugo-theme-bootstrap-skeleton" # required.
-  repoId: "R_kgDOHJi95g" # required.
-  category: "General" # required.
-  categoryId: "DIC_kwDOHJi95s4CTy6q" # required.
+  repo: "ast3risk-ops/blog" # required.
+  repoId: "R_kgDOKKJBHQ" # required.
+  category: "Giscus" # required.
+  categoryId: "DIC_kwDOKKJBHc4CYycm" # required.
   # theme: "dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
@@ -204,8 +204,8 @@ search:
   # debug: true
 
 reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
+  #alipay: images/reward/alipay.png
+  #wechat: images/reward/wechat.png
   #paypal: images/reward/paypal.png
   #patreon: images/reward/patreon.png
   #liberapay: images/reward/liberapay.png
@@ -226,7 +226,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    short_name: Asterisk_blog
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -241,14 +241,14 @@ pwa:
     #   src: /images/icons/icon-144x144.png
 
 contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
-  # file: true # Enable file upload
+  endpoint: https://getform.io/f/47d9f422-3da7-40f3-8cc4-6751e82032c5 # Backend endpoint, remove this line if you're using Netlify.
+  file: true # Enable file upload
   # fileField: image # The name of file field.
-  # reCaptcha:
-    # siteKey: ""
+  reCaptcha:
+    siteKey: "6LdZ1sMnAAAAAFcuVoni5rQngRLQwTkCpYtHPPeS"
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/ast3risk-ops/blog
   branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
@@ -256,9 +256,9 @@ repo:
 topAppBar:
   # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
   social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+    github: ast3risk-ops/blog
+    # patreon: razonyang
+    # paypal: razonyang
 
 #docs:
   # nav:
