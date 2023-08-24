@@ -16,7 +16,7 @@ tags:
   - Intro
 authors:
   - Asterisk
-images: []
+images: ['https://asterisk.is-from.space/r/firefox_EehsmFzNNK.png']
 ---
 
 # We're open!
