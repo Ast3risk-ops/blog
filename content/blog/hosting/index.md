@@ -12,12 +12,15 @@ carousel: false
 series:
 categories: ['Hosting', 'Blog', 'Hashnode Archive']
 tags: ['rant']
-images: []
+images: ['https://cdn.hashnode.com/res/hashnode/image/upload/v1690292610011/85d67c29-eeb0-4449-a04c-30127dfed410.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp']
 ---
 
 **THIS POST IS FROM MY HASHNODE BLOG, IT IS NOT FRESH AND I HAVE PUT THE ORIGINAL POST DATE AS THE DATE.**
 
+<!--more-->
+
 Please ignore the broken images.
+
 
 
 This article doesn't have a cover image, and I think that fits well.
