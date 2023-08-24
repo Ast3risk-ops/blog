@@ -61,7 +61,14 @@ It actually got approved. So once that happened, I put out an update:
 
 Now I was pretty stupefied considering how long it took to get the thing verified, but it was probably verified quickly, and the mods must have been offline most of the time.
 
-I then created another update elaborating, and Sloth (the forum owner) quickly removed the resource. After that I [proposed a scenario](https://discord.com/channels/730015520568639509/730023081489203241/1144261296653611078) for the resource system to be exploited.
+I also made a test post seeing if there were any scanners on outbound links, as users could make pseudo-resources using posts.
+
+![malware_test_post](https://cdn.discordapp.com/attachments/730023081489203241/1144270102112518164/80lygEW.png)
+
+It was removed for being a malicious post. But that caused the admin to implement a plugin scanning all file uploads with Virustotal. No, outbound links are not scanned, feel free to comment if that's something you can help with. Sloth also reassured me any pseudo-resources would be removed.
+
+
+I then created another update elaborating on my Modmail resource, and Sloth (the forum owner) quickly removed the resource. After that I [proposed a scenario](https://discord.com/channels/730015520568639509/730023081489203241/1144261296653611078) for the resource system to be exploited.
 
 [![discord](https://asterisk.is-from.space/r/ArmCord_ShC6aBMgSU.png)](https://discord.com/channels/730015520568639509/730023081489203241/1144261540845998141)
 
@@ -71,10 +78,7 @@ Then, he actually responded:
 
 ### Joining the staff team
 
-After this, he sent me a DM asking me if I wanted to be a mod:
-
-![discord3](https://asterisk.is-from.space/r/ArmCord_iFPa74W6Gu.png) 
-*DM, can't be linked*
+After this, he sent me a DM asking me if I wanted to be a mod.
 
 I then joined the staff team, and here we are.
 
