@@ -21,6 +21,7 @@ images: ['https://cdn.hashnode.com/res/hashnode/image/upload/v1690292610011/85d6
 
 Please ignore the broken images.
 
+**Also, I won't make posts that are as inflammatory (at least for hosting).**
 
 
 This article doesn't have a cover image, and I think that fits well.
