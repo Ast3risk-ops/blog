@@ -8,7 +8,7 @@ comment: true
 toc: true
 reward: false
 pinned: false
-carousel: true
+carousel: false
 series:
 categories: ['Blog']
 tags: ['BlendOS']
@@ -107,6 +107,12 @@ I think if you're going to hate on something, try it first. If you don't want to
 > No research went into talking about the distro, he just assumed what the distro was and went on with his life.
 >
 > *- ethanrr ([Discord](https://discord.com/channels/1068192254365282405/1068192256235933760/1145157141771075594))*
+
+**EDIT**
+
+> Good post. I think, if anything, CTTs impressions of blendOS from the website can tell us that the website (as pretty as it is) doesn't quite do the distro justice, or at least doesn't communicate what makes it stand out from similar distros, why you'd want to use it over others.
+> 
+> *- Zephyr ([Discord](https://discord.com/channels/1068192254365282405/1068192256235933760/1145547796448026697))*
 
 Now, I do agree with the point that all these new distros waste everybody's time, but this is different. It's not just another Ubuntu derivative, or another Arch spin. It may not seem like much now, but we are on the cusp of something game-changing, maybe even *revolutionary*, and it's not immutability.
 
