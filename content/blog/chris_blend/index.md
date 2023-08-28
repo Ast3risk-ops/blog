@@ -110,7 +110,7 @@ I think if you're going to hate on something, try it first. If you don't want to
 
 **EDIT**
 
-> Good post. I think, if anything, CTTs impressions of blendOS from the website can tell us that the website (as pretty as it is) doesn't quite do the distro justice, or at least doesn't communicate what makes it stand out from similar distros, why you'd want to use it over others.
+> I think, if anything, CTTs impressions of blendOS from the website can tell us that the website (as pretty as it is) doesn't quite do the distro justice, or at least doesn't communicate what makes it stand out from similar distros, why you'd want to use it over others.
 > 
 > *- Zephyr ([Discord](https://discord.com/channels/1068192254365282405/1068192256235933760/1145547796448026697))*
 
