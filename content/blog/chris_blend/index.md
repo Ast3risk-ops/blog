@@ -41,6 +41,7 @@ The video in question (skip to 4:44):
 
 Now, I shall begin.
 
+**EDIT:** Chris made a pinned comment on the video correcting himself, which is good to see.
 
 # Our Response:
 
