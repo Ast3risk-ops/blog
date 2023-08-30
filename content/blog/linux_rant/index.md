@@ -81,4 +81,6 @@ I mean, you still need [AppImageLauncher](https://github.com/TheAssassin/AppImag
 
 Seriously? Nobody would bother manually making appmenu entries for these. These aren't exactly apps that you install, and they still come with at least *some* libraries.
 
+-------
 
+![notbyai](https://asterisk.is-from.space/r/human.png)

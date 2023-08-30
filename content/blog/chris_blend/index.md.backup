@@ -1,14 +1,14 @@
 ---
 # type: docs 
 title: What is blendOS?
-date: 2023-08-26T20:10:12-04:00
+date: 2023-08-27T20:34:00-04:00
 featured: false
 draft: false
 comment: true
 toc: true
 reward: false
-pinned: true
-carousel: true
+pinned: false
+carousel: false
 series:
 categories: ['Blog']
 tags: ['BlendOS']
@@ -41,6 +41,7 @@ The video in question (skip to 4:44):
 
 Now, I shall begin.
 
+**EDIT:** Chris made a pinned comment on the video correcting himself, which is good to see.
 
 # Our Response:
 
@@ -107,6 +108,12 @@ I think if you're going to hate on something, try it first. If you don't want to
 >
 > *- ethanrr ([Discord](https://discord.com/channels/1068192254365282405/1068192256235933760/1145157141771075594))*
 
+**EDIT**
+
+> I think, if anything, CTTs impressions of blendOS from the website can tell us that the website (as pretty as it is) doesn't quite do the distro justice, or at least doesn't communicate what makes it stand out from similar distros, why you'd want to use it over others.
+> 
+> *- Zephyr ([Discord](https://discord.com/channels/1068192254365282405/1068192256235933760/1145547796448026697))*
+
 Now, I do agree with the point that all these new distros waste everybody's time, but this is different. It's not just another Ubuntu derivative, or another Arch spin. It may not seem like much now, but we are on the cusp of something game-changing, maybe even *revolutionary*, and it's not immutability.
 
 I will also reiterate my stance that if you're going to comment on a distro, **try it first**. Everybody else who made a video about our distro, and commented on it, tried it first.
@@ -147,7 +154,7 @@ You might say he did this with [Ubuntu Unity](https://ubuntuunity.org) and the [
 
 This made me realize that we haven't seen another Ubuntu, another Debian, in ages. It's all just rices of another distro.
 
-I agree, if you like a packaging format, stick with it. However this will help consolidate everything into something that works (As I feel Flatpak sucks in its current state and could be better).
+I agree. If you like a packaging format, stick with it. However this will help consolidate everything into something that works (As I feel Flatpak sucks in its current state and could be better).
 
 
 

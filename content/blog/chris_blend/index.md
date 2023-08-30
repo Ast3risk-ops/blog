@@ -177,3 +177,7 @@ blendOS Website: [blendos.co](https://blendos.co)
 -----------------------------------
 
 *Psssst!* You can quote, discuss or comment on this post in a video even if that video is monetized (you make money from it) (just follow the other parts of the [license](#post-copyright)).
+
+-------------
+
+![notbyai](https://asterisk.is-from.space/r/human.png)

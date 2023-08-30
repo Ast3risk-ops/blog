@@ -104,5 +104,9 @@ On a side note, EXYQ is currently looking for donators and partners to make excl
 - Partner: DM `slothpw` on Discord.
 - EXYQ Discord: https://discord.gg/BeyCydh
 
+-------
+
+![notbyai](https://asterisk.is-from.space/r/human.png)
+
 
 
