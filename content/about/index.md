@@ -34,3 +34,11 @@ If you wish to share/quote the content in this blog (which you are free to do in
 
 - You may not modify the material you are redistributing.
 
+# Generative AI (ChatGPT)
+
+My content is 100% human-written, and it will always be that way. As a testament to this, I use the badge below:
+
+![notbyai](https://asterisk.is-from.space/r/human.png)
+
+To learn more, and get this badge for yourself, visit [**notbyai**](https://notbyai.fyi).
+

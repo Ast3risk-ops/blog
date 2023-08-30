@@ -1,9 +1,10 @@
 +++
 title = "About"
-description = "About Me"
+description = "About the blog."
 reward = false
 postDate = false
 readingTime = false
+comment = false
 +++
 
 Hi there, I'm Asterisk.
@@ -25,11 +26,17 @@ Some details on the blog:
 
 My content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en). Here's a summary of the license:
 
-If you wish to share/quote the content in this blog, you must do the following:
+If you wish to share/quote the content in this blog (which you are free to do in any medium or format as dictated by the license), you must do the following:
 
 - Attribute me as the original author, and not shoveled away in the bottom of a description page, make it obvious.
 
 - This must be for non-commercial purposes only.
 
 - You may not modify the material you are redistributing.
+
+# Generative AI (ChatGPT)
+
+My content is 100% human-written, and it will always be that way. As a testament to this, I use the badge below:
+
+![notbyai](https://asterisk.is-from.space/r/human.png)
 
