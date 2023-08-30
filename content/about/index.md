@@ -26,7 +26,7 @@ Some details on the blog:
 
 My content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en). Here's a summary of the license:
 
-If you wish to share/quote the content in this blog, you must do the following:
+If you wish to share/quote the content in this blog (which you are free to do in any medium or format as dictated by the license), you must do the following:
 
 - Attribute me as the original author, and not shoveled away in the bottom of a description page, make it obvious.
 
