@@ -1,9 +1,10 @@
 +++
 title = "About"
-description = "About Me"
+description = "About the blog."
 reward = false
 postDate = false
 readingTime = false
+comment = false
 +++
 
 Hi there, I'm Asterisk.
