@@ -9,3 +9,8 @@ main:
     url: https://asterisk.shinken.studio
     params:
       icon: '<i class="fas fa-globe"></i>'
+  - name: RSS
+    identifier: rss
+    url: /index.xml
+    params:
+      icon: '<i class="fas fa-rss"></i>'
