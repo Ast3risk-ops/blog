@@ -1,6 +1,6 @@
 ---
 # type: docs 
-title: Linux_rant
+title: Linux Is a Barrier for Developers.
 date: 2023-08-27T20:32:18-04:00
 featured: false
 draft: true
@@ -8,16 +8,19 @@ comment: true
 toc: true
 reward: false
 pinned: false
-carousel: false
-series:
+carousel: true
+series: 
 categories: ['Blog']
 tags: ['Rant', 'Linux']
-images: []
+images: ['https://asterisk.is-from.space/r/sad-linux-tux-security.jpg']
 ---
 
-Summary.
+Here's why.
+
+
 
 <!--more-->
+-------
 
 Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
 
@@ -81,4 +84,33 @@ I mean, you still need [AppImageLauncher](https://github.com/TheAssassin/AppImag
 
 Seriously? Nobody would bother manually making appmenu entries for these. These aren't exactly apps that you install, and they still come with at least *some* libraries.
 
+### Different display and app frameworks
 
+So, let's say I want to make an app for desktop Linux. I have some choices. To make the app, I can make a site and use Electron or Tauri, or I can go ful native and use GTK3, GTK4, libadwaita, QT 5 or QT 6. Then the app might be running on either X11 (suuuper ancient, has less issues) or Wayland (more modern, but has issues). Compatibility layers like Xwayland help, but they aren't perfect.
+
+This means it's difficult to fully support everything, and a lot of games don't work on Wayland for everybody, for example. X11 has horrible tearing for some people who use multiple monitors (ancient software moment).
+
+### Users
+
+So it seems that Linux users *love* to argue about their favorite distro, DE, display server, or app framework. Alongside that, developers love to make a new ubuntu-based distro every week, creating *more* useless choice.
+
+The developers of these frameworks might not bicker, and might have gotten their act together, but users haven't. They think 2% is some kind of huge milestone. It's a great one no doubt, but the other 98% don't give a shit.
+
+To prove my point further, here's a quote:
+
+> Attracting \[big companies\] will only happen by empowering them with a stable platform, not locking them in a box.
+>
+> *- Nicholas Fraser ([ludocode.com](https://ludocode.com/blog/flatpak-is-not-the-future))*
+
+This is *not* a stable platform. This is hell. Choice is good, but at what point does it become too much?
+
+## The solution
+
+This is hard to fix. Nobody is going to throw away all their hard work to come together. We can just hope that people realize that some form of consolidation is needed to compete with Windows, or to simply expand. We need to fix all these broken technologies for desktop Linux to truly shine as a beacon of freedom from Big Tech surveillance.
+
+-------
+
+![notbyai](https://asterisk.is-from.space/r/human.png)
+
+
+*Cover image taken from FossBytes.*
