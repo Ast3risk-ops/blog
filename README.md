@@ -2,7 +2,7 @@
 
 This is my blog. It's cool.
 
-I made it with Hugo, as I suck at web design.
+I made it with Hugo, as I suck at web design (I only know basic HTML and a lot of Markdown and BBCode).
 
 Services used:
 <table>
