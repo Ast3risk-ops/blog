@@ -12,7 +12,7 @@ carousel: true
 series: 
 categories: ['Blog']
 tags: ['Rant', 'Linux']
-images: ['https://asterisk.is-from.space/r/sad-linux-tux-security.jpg']
+images: ['https://asterisk.is-from.space/r/sad-linux-tux-security.jpg?width=200px']
 ---
 
 Here's why.
