@@ -112,7 +112,7 @@ post:
   # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.
   numberifyHeadingsSeparator: . # The separator between of number and headings.
   # tocStyleType: decimal # The TOC's CSS list-style-type property.
-  # imageTitleAsCaption: true
+  imageTitleAsCaption: true
   # panel: false # Disable the post panel.
   # nav: false # Disable post navigations.
   # The page position after clicking the read more button, read more from content if true. Default to the beginning of page.
