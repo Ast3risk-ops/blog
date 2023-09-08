@@ -8,7 +8,7 @@ Services used:
 <table>
   <tr>
     <td align="center">
-        <a href="https://gohugo.io/">
+        <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">
             <img src="https://asterisk.is-from.space/r/hugo-color.svg" width="100px;" alt="Next.js"/>
             <br/>
             <sub>
@@ -18,7 +18,7 @@ Services used:
         <br/>
     </td>
     <td align="center">
-        <a href="https://getbootstrap.com/">
+        <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">
             <img src="https://asterisk.is-from.space/r/bootstrap-color.svg" width="100px;" alt="TailwindCSS"/>
             <br/>
             <sub>
@@ -28,7 +28,7 @@ Services used:
         <br/>
     </td>
     <td align="center">
-        <a href="https://fontawesome.com/">
+        <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">
             <img src="https://asterisk.is-from.space/r/fontawesome-color.svg" width="100px;" alt="Framer Motion"/>
             <br/>
             <sub>
@@ -38,7 +38,7 @@ Services used:
         <br/>
     </td>
     <td align="center">
-        <a href="https://pages.cloudflare.com/">
+        <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer">
             <img src="https://asterisk.is-from.space/r/cloudflare-color.svg" width="100px;" alt="Cloudflare Pages"/>
             <br/>
             <sub>
