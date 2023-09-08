@@ -80,7 +80,7 @@ tocWordCount: 1 # TOC is displayed only if the post's word count exceeds this va
 
 titleCase: true # Capitalized title.
 
-viewer: true # Image Viewer
+viewer: false # Image Viewer
 
 # backgroundImage: ['/images/bg-light.png', '/images/bg-dark.png']
 # rss: home # link the RSS button to homepage all the times.
