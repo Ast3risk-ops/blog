@@ -22,6 +22,10 @@ Some details on the blog:
 
 - Any external embeds will be subject to their respective terms, which will be shown under the embed load button.
 
+- Some images are hosted on [Tixte](https://tixte.com), and are under their [privacy policy](https://tixte.com/legal/privacy).
+
+- Any local image files are hosted on [Cloudflare Pages](https://pages.dev) alongside the rest of the site. Cloudflare's [privacy policy](https://www.cloudflare.com/privacypolicy/) applies.
+
 # Licensing
 
 My content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en). Here's a summary of the license:
