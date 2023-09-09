@@ -2,12 +2,12 @@
 # type: docs 
 title: Linux Is a Barrier for Developers.
 date: 2023-08-27T20:32:18-04:00
-featured: false
+featured: fals
 draft: true
 comment: true
 toc: true
 reward: false
-pinned: false
+pinned: true
 carousel: true
 series: 
 categories: ['Blog']
@@ -143,7 +143,7 @@ Wine is *okay*, and with tools like Bottles or Proton, it gets better all the ti
 
 ![linuxcycle](linux-cycle.png?width=400px "My image editing skills suck.")
 
-I don't even know for sure how we'd even break this cycle. People *do* use Linux regardless, that's where the 2% comes from, but I'm talking about *average users*. We need to break this cycle created by this scaffolding clusterfuck of infrastructure we've built
+I don't even know for sure how we'd even break this cycle. People *do* use Linux regardless, that's where the 2% comes from, but I'm talking about *average users*. We need to break this cycle created by this scaffolding clusterfuck of infrastructure we've built.
 
 
 
