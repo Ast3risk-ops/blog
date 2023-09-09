@@ -12,7 +12,7 @@ carousel: true
 series: 
 categories: ['Blog']
 tags: ['Rant', 'Linux']
-images: ['https://asterisk.is-from.space/r/sad-linux-tux-security.jpg']
+images: ['https://asterisk.is-from.space/r/sad-linux-tux-security.jpg?width=200px']
 ---
 
 Here's why.
@@ -24,6 +24,8 @@ Here's why.
 -------
 
 Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
+
+This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/blog/flatpak-is-not-the-future).
 
 -----
 
@@ -91,15 +93,23 @@ Seriously? Nobody would bother manually making appmenu entries for these. These 
 
 There are 2 main software stores at play here, for the two most popular app containerization frameworks. [Snapcraft](https://snapcraft.io) and [Flathub](https://flathub.org). Snapcraft is run by Canonical, Flathub seems to be run by [Freedesktop](https://www.freedesktop.org/wiki/) (I could be wrong). Both of these stores push centralization.
 
+Centralization is *bad*. When something is centralized, it's easy for the owners to monetize it to make a quick buck. Flathub doesn't process payments *yet*, but they will soon enough, it's too lucrative. They'll start *milking* these stores for as much money as they can, we're all human.
+
+> This is the real reason Ubuntu wants everyone to use Snap instead of helping us build apps that run natively on Ubuntu. This is also why they keep the Snap server source code closed. They want it to be “open” the way Android is “open”, where there is only one official store and sideloading apps is as annoying as possible.
+>
+> *-Nicholas Fraser ([ludocode.com](https://ludocode.com/blog/flatpak-is-not-the-future))*
+
+Even Windows does better than this, with its MSI and EXE installers, which are also flawed. When *Windows* of all things is better than your system, you know your system is fucked up.
+
 ### Different display and app frameworks
 
-So, let's say I want to make an app for desktop Linux. I have some choices. To make the app, I can make a site and use Electron or Tauri, or I can go ful native and use GTK3, GTK4, libadwaita, QT 5 or QT 6. Then the app might be running on either [X11](https://x.org) (suuuper ancient, has less issues) or [Wayland](https://wayland.freedesktop.org) (more modern, but has issues). Compatibility layers like [Xwayland](https://wayland.freedesktop.org/xserver.html) help, but they aren't perfect.
+So, let's say I want to make an app for desktop Linux. I have some choices. To make the app, I can make a site and use Electron or Tauri, or I can go full native and use GTK3, GTK4, libadwaita, QT 5 or QT 6. Then the app might be running on either [X11](https://x.org) (suuuper ancient, has less issues) or [Wayland](https://wayland.freedesktop.org) (more modern, but has issues). Compatibility layers like [Xwayland](https://wayland.freedesktop.org/xserver.html) help, but they aren't perfect.
 
 This means it's difficult to fully support everything, and a lot of games don't work on Wayland for everybody, for example. X11 has horrible tearing for some people who use multiple monitors (ancient software moment).
 
 ### Users
 
-So it seems that Linux users *love* to argue about their favorite distro, DE, display server, or app framework. Alongside that, developers love to make a new ubuntu-based distro every week, creating *more* useless choice.
+So it seems that Linux users *love* to argue about their favorite distro, DE, display server, or app framework. Alongside that, developers love to make a new Ubuntu-based distro every week, creating *more* useless choice.
 
 The developers of these frameworks might not bicker, and might have gotten their act together, but users haven't. They think 2% is some kind of huge milestone. It's a great one no doubt, but the other 98% don't give a shit.
 
@@ -133,16 +143,16 @@ Wine is *okay*, and with tools like Bottles or Proton, it gets better all the ti
 
 ![linuxcycle](linux-cycle.png?width=400px "My image editing skills suck.")
 
-I don't even know for sure how we'd even break this cycle. People *do* use Linux regardless, that's where the 2% comes from, but I'm talking about *average users*. 
+I don't even know for sure how we'd even break this cycle. People *do* use Linux regardless, that's where the 2% comes from, but I'm talking about *average users*. We need to break this cycle created by this scaffolding clusterfuck of infrastructure we've built
 
 
 
 -------
 
-![notbyai](https://asterisk.is-from.space/r/human.png)
+[![notbyai](https://asterisk.is-from.space/r/human.png)](/about/#generative-ai-chatgpt)
 
 
-*Cover image taken from FossBytes.*
+*Cover image taken from [FossBytes](https://fossbytes.com/).*
 
 [^1]: It's under the header "Permissions And Portals" by the way.
 

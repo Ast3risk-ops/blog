@@ -6,11 +6,11 @@ featured: false
 draft: true
 comment: true
 toc: true
-reward: true
+reward: false
 pinned: false
 carousel: false
 series:
-categories: []
+categories: ['Blog']
 tags: []
 images: []
 ---
@@ -23,4 +23,4 @@ Content.
 
 ------
 
-![notbyai](https://asterisk.is-from.space/r/human.png)
+[![notbyai](https://asterisk.is-from.space/r/human.png)](/about/#generative-ai-chatgpt)
