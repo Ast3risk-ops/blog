@@ -75,7 +75,7 @@ I think Nicholas Fraser did a great job explaining some of the issues with Flatp
 
 - This is a problem as built-in disk space has been shrinking.
 
-- The security sandbox does not have a permission API like on [iOS](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) or [Android](https://developer.android.com/guide/topics/permissions/overview), as they want [Flatpak apps to not know they're flatpacked](https://ludocode.com/blog/flatpak-is-not-the-future) [^1], and is generally not well-enforced or too-well enforced, requiring the use of commands or [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal). Apps cannot prompt the user to grant permissions they need, this is all manual.
+- The security sandbox does not have a permission API like on [iOS](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) or [Android](https://developer.android.com/guide/topics/permissions/overview), as they want [Flatpak apps to not know they're flatpacked](https://ludocode.com/blog/flatpak-is-not-the-future)[^1], and is generally not well-enforced or too-well enforced, requiring the use of commands or [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal). Apps cannot prompt the user to grant permissions they need, this is all manual.
 
 - Other remotes can have packages with the same reverse DNS prefix, causing confusion.
 
@@ -130,6 +130,8 @@ I'm stuck on this piece of hot ass held together with duct tape and dreams becau
 We're *still* trying to transition our displays from a piece of software made in 1984, *39 years ago*, called the [X windowing system](https://x.org). [Wayland](https://wayland.freedesktop.org/) is the future and all, but it has caused a rift between users as to what display server they use, which causes more problems. Xwayland *works*, and is getting better all the time ([Xwayland video bridge](https://invent.kde.org/system/xwaylandvideobridge) my beloved), but still needs work. The only things it is for are the portal system, less tearing, better composition ([no server/client framework](https://wayland.freedesktop.org/architecture.html)), and being able to run Android 12 ([Waydroid](https://waydro.id)). Other than that, most apps still use X11. 
 
 We also have different audio servers. They *should* all be somewhat interoperable. but the differences are still there. Pulseaudio is quite common, but [Pipewire](https://pipewire.org/) also exists.
+
+People develop for Windows because it's popular.
 
 
 

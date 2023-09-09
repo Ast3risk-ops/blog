@@ -2,7 +2,7 @@
 # type: docs 
 title: Linux Is a Barrier for Developers.
 date: 2023-08-27T20:32:18-04:00
-featured: true
+featured: false
 draft: true
 comment: true
 toc: true
@@ -33,13 +33,13 @@ This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/b
 
 ## The story
 
-On the evening of August 27th, 2023, I was putting the final touches on my Chris Titus blog post. I started the hugo dev server to check the post over. I opened Dopamine 2 (my music player) at the same time. My PC (running Windows 11 pro, *ew*) did what Windows does best, and just froze. Of course this had to happen now.
+On the evening of August 27th, 2023, I was putting the final touches on my Chris Titus blog post. I started the Hugo dev server to check the post over. I opened Dopamine 2 (my music player) at the same time. My PC (running Windows 11 pro, *ew*) did what Windows does best, and just froze. Of course, this had to happen now.
 
 After forcefully rebooting it, I wondered to myself why I hadn't gone back to Linux, which never had this issue. Why was I using an OS made by underpaid developers using nothing but duct tape and dreams and owned by a megacorp seeking nothing but dollar signs? The answer was, well, because everybody else did.
 
 ## The problem
 
-Here's my problem. Time and time again, I see lackluster, even abysmal software support for Linux. Proton (well it was *made* for games, it gets a pass) and Wine focus too much on games that app support stagnates. Sure, I could *pay for [Wine](https://winehq.org)* ([CrossOver](https://www.codeweavers.com/crossover)) or use [Bottles](https://usebottles.com/), but then I'm running *Windows* apps on Linux when those apps could be Linux-native. :(
+Here's my problem. Time and time again, I see lackluster, even abysmal software support for Linux. Proton (well it was *made* for games, so it gets a pass) and Wine focuses too much on games that app support stagnates. Sure, I could *pay for [Wine](https://winehq.org)* ([CrossOver](https://www.codeweavers.com/crossover)) or use [Bottles](https://usebottles.com/), but then I'm running *Windows* apps on Linux when those apps could be Linux-native. :(
 
 So, now I'm asking myself, *Why do developers not want to support Linux, the best kernel/OS/thing ever made?* Then, it dawned on me. Linux. Is. Too. Complex. Now, hold on, don't stop reading, let me explain. I realized a few key problems with Linux really stop developers from caring.
 
@@ -47,7 +47,7 @@ See, Linux is so custom that most support tickets for apps that support Linux *c
 
 When you have so many different setups, it's hard for developers to support them all. We see this with PC ports using DirectX 11 instead of 12, [because 11 auto-magically handles different hardware specs and configs](https://www.youtube.com/watch?v=tF013HYQd2Q&t=311s). However, centralization is also bad, choice is *good*.
 
-These bigger companies want a stable platform to develop for, and with all this choice, that's difficult.
+These bigger companies want a stable platform to develop for, and with all these choices, that's difficult.
 
 ### The options
 
@@ -55,11 +55,11 @@ Linux has a lot of ways to package software for it. Every distro is different, a
 
 #### Native Packages
 
-This can mean a lot of things, depending on your distro. It could be DEB files, RPM files, zst-compressed package tarballs (Arch btw), APK packages (not Android), NIX packages, building from source, or many others. All these formats are different, and while some can be converted (ex. RPM -> DEB, DEB -> ZST) they're all unique, and have to be compiled for individually. That's too much work for developers, so distro maintainers handle the compilation of packages. Some distros might keep older versions of packages for the sake of stability, others might always be on the bleeding edge. Then there's also issues with conflicting dependencies or overwritten ones (aka dependency hell). This is not appealing because there's too much choice.
+This can mean a lot of things, depending on your distro. It could be DEB files, RPM files, zst-compressed package tarballs (Arch btw), APK packages (not Android), NIX packages, building from source, or many others. All these formats are different, and while some can be converted (ex. RPM -> DEB, DEB -> ZST) they're all unique and have to be compiled individually. That's too much work for developers, so distro maintainers handle the compilation of packages. Some distros might keep older versions of packages for the sake of stability, others might always be on the bleeding edge. Then there are also issues with conflicting dependencies or overwritten ones (aka dependency hell). This is not appealing because there's too much choice.
 
 #### Snaps
 
-My only memory with snaps is Firefox on Ubuntu, and that was the worst version of Firefox ever made. It took what felt like ages to start. Anyway, snaps are unique here because snaps can also be deployed on the server-side (kinda like Docker), but at that point, you could also use [Podman](https://podman.io) and you'd get better preformance and [more security](https://www.redhat.com/en/topics/containers/what-is-podman#podman-vs-docker). Apparently the reason they take so damn long to start is because they're extracting a `squashfs` image from disk. They clog up your mounts and lengthen your boot time (all snaps are mounted at boot). They also don't have a tool like Flatseal to mangage the security sandbox, and might give apps too many or too little permissions. These aren't great mainly with the slow start time, and low rates of adoption.
+My only memory with snaps is Firefox on Ubuntu, and that was the worst version of Firefox ever made. It took what felt like ages to start. Anyway, snaps are unique here because snaps can also be deployed on the server-side (kinda like Docker), but at that point, you could also use [Podman](https://podman.io) and you'd get better performance and [more security](https://www.redhat.com/en/topics/containers/what-is-podman#podman-vs-docker). Apparently, the reason they take so damn long to start is because they're extracting a `squashfs` image from disk. They clog up your mounts and lengthen your boot time (all snaps are mounted at boot). They also don't have a tool like Flatseal to manage the security sandbox and might give apps too many or too few permissions. These aren't great mainly with the slow start time, and low rates of adoption.
 
 [Rudra Saraswat](https://about.ruds.io) did create an alternate snap server called [`lol`](https://gitlab.com/lol-snap), but I haven't heard much about that, seems to be deprecated.
 
@@ -67,15 +67,15 @@ My only memory with snaps is Firefox on Ubuntu, and that was the worst version o
 
 I think Nicholas Fraser did a great job explaining some of the issues with Flatpak in this [blog post](https://ludocode.com/blog/flatpak-is-not-the-future). To summarize:
 
-- Flatpaks are big because they depend on "shared runtimes" that are distro-specific (there's ubuntu 20.04 and 22.04 ones for example) and that anybody can make.
+- Flatpaks are big because they depend on "shared runtimes" that are distro-specific (there are Ubuntu 20.04 and 22.04 ones for example) and that anybody can make.
 
-- Existing libraries post-2012 are quite backwards compatible, so this shared-runtime system isn't exactly the best one.
+- Existing libraries post-2012 are quite backwards compatible, so this shared runtime system isn't exactly the best one.
 
 - All the downloads mean you're basically downloading another OS on top of your existing one.
 
-- This is a problem as builtin disk space has been shrinking.
+- This is a problem as built-in disk space has been shrinking.
 
-- The security sandbox does not have a permission API like on [iOS](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) or [Android](https://developer.android.com/guide/topics/permissions/overview), as they want [Flatpak apps to not know they're flatpacked](https://ludocode.com/blog/flatpak-is-not-the-future) [^1], and is generally not well-enforced or too-well enforced, requiring the use of commands or [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal). Apps cannot prompt the user to grant permissions they need, this is all manual.
+- The security sandbox does not have a permission API like on [iOS](https://developer.apple.com/documentation/uikit/protecting_the_user_s_privacy/requesting_access_to_protected_resources) or [Android](https://developer.android.com/guide/topics/permissions/overview), as they want [Flatpak apps to not know they're flatpacked](https://ludocode.com/blog/flatpak-is-not-the-future)[^1], and is generally not well-enforced or too-well enforced, requiring the use of commands or [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal). Apps cannot prompt the user to grant permissions they need, this is all manual.
 
 - Other remotes can have packages with the same reverse DNS prefix, causing confusion.
 
@@ -87,11 +87,11 @@ I mean, you still need [AppImageLauncher](https://github.com/TheAssassin/AppImag
 
 #### Binary Tarball
 
-Seriously? Nobody would bother manually making appmenu entries for these. These aren't exactly apps that you install, and they still come with at least *some* libraries.
+Seriously? Nobody would bother manually making app menu entries for these. These aren't exactly apps that you install, and they still come with at least *some* libraries.
 
 ### Software Stores
 
-There are 2 main software stores at play here, for the two most popular app containerization frameworks. [Snapcraft](https://snapcraft.io) and [Flathub](https://flathub.org). Snapcraft is run by Canonical, Flathub seems to be run by [Freedesktop](https://www.freedesktop.org/wiki/) (I could be wrong). Both of these stores push centralization.
+There are 2 main software stores at play here, for the two most popular app containerization frameworks. [Snapcraft](https://snapcraft.io) and [Flathub](https://flathub.org). Snapcraft is run by Canonical, and Flathub seems to be run by [Freedesktop](https://www.freedesktop.org/wiki/) (I could be wrong). Both of these stores push centralization.
 
 Centralization is *bad*. When something is centralized, it's easy for the owners to monetize it to make a quick buck. Flathub doesn't process payments *yet*, but they will soon enough, it's too lucrative. They'll start *milking* these stores for as much money as they can, we're all human.
 
@@ -109,9 +109,9 @@ This means it's difficult to fully support everything, and a lot of games don't 
 
 ### Users
 
-So it seems that Linux users *love* to argue about their favorite distro, DE, display server, or app framework. Alongside that, developers love to make a new Ubuntu-based distro every week, creating *more* useless choice.
+So it seems that Linux users *love* to argue about their favourite distro, DE, display server, or app framework. Alongside that, developers love to make a new Ubuntu-based distro every week, creating *more* useless choices.
 
-The developers of these frameworks might not bicker, and might have gotten their act together, but users haven't. They think 2% is some kind of huge milestone. It's a great one no doubt, but the other 98% don't give a shit.
+The developers of these frameworks might not bicker and might have gotten their act together, but users haven't. They think 2% is some kind of huge milestone. It's a great one no doubt, but the other 98% don't give a shit.
 
 To prove my point further, here's a quote:
 
@@ -135,7 +135,7 @@ We also have different audio servers. They *should* all be somewhat interoperabl
 
 ## The solution?
 
-This is hard to fix. Nobody is going to throw away all their hard work to come together. We can just hope that people realize that some form of consolidation is needed to compete with Windows, or to simply expand. We need to fix all these broken technologies for desktop Linux to truly shine as a beacon of freedom from Big Tech surveillance.
+This is hard to fix. Nobody is going to throw away all their hard work to come together. We can just hope that people realize that some form of consolidation is needed to compete with Windows or to simply expand. We need to fix all these broken technologies for desktop Linux to truly shine as a beacon of freedom from Big Tech surveillance.
 
 I heard someone call distros like Arch, Debian, Ubuntu and Slackware "grandaddy distros." Eventually, everybody comes back to them. I find that interesting, as it could be part of the solution to our problem.
 
