@@ -23,7 +23,7 @@ Here's why.
 
 -------
 
-Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
+Please don't rush in the comments and say "It's GNU+Linux by the way 🤓," **I KNOW**.
 
 This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/blog/flatpak-is-not-the-future).
 
