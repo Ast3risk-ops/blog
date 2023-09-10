@@ -23,7 +23,7 @@ Here's why.
 
 -------
 
-Please don't rush in the comments and say "It's GNU+Linux by the way 🤓," **I KNOW**.
+Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
 
 This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/blog/flatpak-is-not-the-future).
 
@@ -57,7 +57,7 @@ Linux has a lot of ways to package software for it. Every distro is different, a
 
 This can mean a lot of things, depending on your distro. It could be DEB files, RPM files, zst-compressed package tarballs (Arch btw), APK packages (not Android), NIX packages, building from source, or many others. All these formats are different, and while some can be converted (ex. RPM -> DEB, DEB -> ZST) they're all unique and have to be compiled individually. That's too much work for developers, so distro maintainers handle the compilation of packages. Some distros might keep older versions of packages for the sake of stability, others might always be on the bleeding edge. Then there are also issues with conflicting dependencies or overwritten ones (aka dependency hell). This is not appealing because there's too much choice.
 
-When distros compile packages things might be out of date, intentionally or not. This can cause issues, as you might have to wait for your favorite package to be updated. Native packages can also have dependency issues (it wants version 1.3, but 2.5 is all that's available) or dependency hell (it wants 1.3 but another app needs 2.5).
+When distros compile packages things might be out of date, intentionally or not. This can cause issues, as you might have to wait for your favorite package to be updated. Native packages can also have dependency issues (it wants version 1.3, but 2.5 is all that's available) or *dependency hell* (it wants 1.3 but another app needs 2.5).
 
 #### Snaps
 
@@ -91,7 +91,7 @@ I mean, you still need [AppImageLauncher](https://github.com/TheAssassin/AppImag
 
 #### Binary Tarball
 
-Seriously? Nobody would bother manually making app menu entries for these. These aren't exactly apps that you install, and they still come with at least *some* libraries.
+Seriously? Nobody would bother manually making app menu entries for these. These aren't exactly apps that you *install*, and they still come with at least *some* libraries.
 
 ### Software Stores
 
@@ -110,6 +110,8 @@ Even Windows does better than this, with its MSI and EXE installers, which are a
 So, let's say I want to make an app for desktop Linux. I have some choices. To make the app, I can make a site and use Electron or Tauri, or I can go full native and use GTK3, GTK4, libadwaita, QT 5 or QT 6. Then the app might be running on either [X11](https://x.org) (suuuper ancient, has less issues) or [Wayland](https://wayland.freedesktop.org) (more modern, but has issues). Compatibility layers like [Xwayland](https://wayland.freedesktop.org/xserver.html) help, but they aren't perfect.
 
 This means it's difficult to fully support everything, and a lot of games don't work on Wayland for everybody, for example. X11 has horrible tearing for some people who use multiple monitors (ancient software moment).
+
+This provides more work for developers to migrate, most choose not to. This makes Linux even less stable.
 
 ### Users
 
@@ -157,13 +159,15 @@ I don't even know for sure how we'd even break this cycle. People *do* use Linux
 
 I've ranted on and on about this, and I still feel I might have glossed over something, but I hope this gives you some idea of why Linux has a problem.
 
-To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users because they're the *only* source of these UPFs.[^2]
+To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users, because they're the *only* source of these bloated UPFs.[^2]
 
-Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better and stabler.
+Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better, and be stable.
 
 Linux is great. It can get better. These tools can improve. Linux can be *the* OS for those who care about their privacy and freedom.
 
 So, let's make it happen.
+
+Until then, I'll stick with Windows.
 
 *- Asterisk*
 
