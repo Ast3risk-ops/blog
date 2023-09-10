@@ -44,5 +44,5 @@ My content is 100% human-written and will always be that way. As a testament to 
 
 ![notbyai](https://asterisk.is-from.space/r/human.png)
 
-To learn more, and get this badge for yourself, visit [**notbyai**](https://notbyai.fyi).
+To learn more, and get this badge for yourself, visit [**notbyai**](https://notbyai.fyi/#not-by-ai-mission).
 
