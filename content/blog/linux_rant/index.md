@@ -23,7 +23,7 @@ Here's why.
 
 -------
 
-Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
+Please don't rush in the comments and say "It's GNU+Linux by the way 🤓," **I KNOW**.
 
 This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/blog/flatpak-is-not-the-future).
 
@@ -157,13 +157,15 @@ I don't even know for sure how we'd even break this cycle. People *do* use Linux
 
 I've ranted on and on about this, and I still feel I might have glossed over something, but I hope this gives you some idea of why Linux has a problem.
 
-To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users, because they're the *only* source of these UPFs.[^2]
+To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users because they're the *only* source of these UPFs.[^2]
 
-Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better, and be stable.
+Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better and stabler.
 
 Linux is great. It can get better. These tools can improve. Linux can be *the* OS for those who care about their privacy and freedom.
 
 So, let's make it happen.
+
+*- Asterisk*
 
 
 
