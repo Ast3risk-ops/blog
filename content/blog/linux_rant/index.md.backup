@@ -57,6 +57,8 @@ Linux has a lot of ways to package software for it. Every distro is different, a
 
 This can mean a lot of things, depending on your distro. It could be DEB files, RPM files, zst-compressed package tarballs (Arch btw), APK packages (not Android), NIX packages, building from source, or many others. All these formats are different, and while some can be converted (ex. RPM -> DEB, DEB -> ZST) they're all unique and have to be compiled individually. That's too much work for developers, so distro maintainers handle the compilation of packages. Some distros might keep older versions of packages for the sake of stability, others might always be on the bleeding edge. Then there are also issues with conflicting dependencies or overwritten ones (aka dependency hell). This is not appealing because there's too much choice.
 
+When distros compile packages things might be out of date, intentionally or not. This can cause issues, as you might have to wait for your favorite package to be updated. Native packages can also have dependency issues (it wants version 1.3, but 2.5 is all that's available) or dependency hell (it wants 1.3 but another app needs 2.5).
+
 #### Snaps
 
 My only memory with snaps is Firefox on Ubuntu, and that was the worst version of Firefox ever made. It took what felt like ages to start. Anyway, snaps are unique here because snaps can also be deployed on the server-side (kinda like Docker), but at that point, you could also use [Podman](https://podman.io) and you'd get better performance and [more security](https://www.redhat.com/en/topics/containers/what-is-podman#podman-vs-docker). Apparently, the reason they take so damn long to start is because they're extracting a `squashfs` image from disk. They clog up your mounts and lengthen your boot time (all snaps are mounted at boot). They also don't have a tool like Flatseal to manage the security sandbox and might give apps too many or too few permissions. These aren't great mainly with the slow start time, and low rates of adoption.
@@ -80,6 +82,8 @@ I think Nicholas Fraser did a great job explaining some of the issues with Flatp
 - Other remotes can have packages with the same reverse DNS prefix, causing confusion.
 
 - This is all so complex, nobody's going to be able to maintain this insanity.
+
+Also, it seems that especially with snaps, a lot of these apps are actually community builds. That creates stability issues, what if it stops being maintained? How long will it take for updates?
 
 #### Appimages
 
@@ -131,6 +135,8 @@ We're *still* trying to transition our displays from a piece of software made in
 
 We also have different audio servers. They *should* all be somewhat interoperable. but the differences are still there. Pulseaudio is quite common, but [Pipewire](https://pipewire.org/) also exists.
 
+People develop for Windows because it's popular. I just can't avoid that. That's why I use Windows.
+
 
 
 ## The solution?
@@ -143,7 +149,19 @@ Wine is *okay*, and with tools like Bottles or Proton, it gets better all the ti
 
 ![linuxcycle](linux-cycle.png?width=400px "My image editing skills suck.")
 
+This *seems* unrelated, but I find our current system isn't exactly helping this.
+
 I don't even know for sure how we'd even break this cycle. People *do* use Linux regardless, that's where the 2% comes from, but I'm talking about *average users*. We need to break this cycle created by this scaffolding clusterfuck of infrastructure we've built.
+
+## Conclusion
+
+I've ranted on and on about this, and I still feel I might have glossed over something, but I hope this gives you some idea of why Linux has a problem.
+
+To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users, because they're the *only* source of these UPFs.[^2]
+
+Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better, and be stable.
+
+Linux is great. It can get better. These tools can improve. Linux can be *the* OS for 
 
 
 
@@ -155,4 +173,4 @@ I don't even know for sure how we'd even break this cycle. People *do* use Linux
 *Cover image taken from [FossBytes](https://fossbytes.com/).*
 
 [^1]: It's under the header "Permissions And Portals" by the way.
-
+[^2]: **U**niversal **P**ackaging **F**ormat.
