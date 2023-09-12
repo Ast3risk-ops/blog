@@ -3,7 +3,7 @@
 title: Linux Is a Barrier for Developers.
 date: 2023-08-27T20:32:18-04:00
 featured: false
-draft: true
+draft: false
 comment: true
 toc: true
 reward: false
@@ -23,7 +23,7 @@ Here's why.
 
 -------
 
-Please don't rush in the comments and say "it's GNU+Linux by the way 🤓," **I KNOW**.
+Please don't rush in the comments and say "It's GNU+Linux by the way 🤓," **I KNOW**.
 
 This is heavily inspired by Nicholas Fraser's [blog post](https://ludocode.com/blog/flatpak-is-not-the-future).
 
@@ -111,7 +111,7 @@ So, let's say I want to make an app for desktop Linux. I have some choices. To m
 
 This means it's difficult to fully support everything, and a lot of games don't work on Wayland for everybody, for example. X11 has horrible tearing for some people who use multiple monitors (ancient software moment).
 
-This 
+This provides more work for developers to migrate, but most choose not to. This makes Linux even less stable.
 
 ### Users
 
@@ -149,7 +149,7 @@ I heard someone call distros like Arch, Debian, Ubuntu and Slackware "grandaddy 
 
 Wine is *okay*, and with tools like Bottles or Proton, it gets better all the time, but it isn't perfect. If people could get their act together we could make development for Linux easier, and then people would see a reason to use Linux. However, there is an intriguing paradox afoot:
 
-![linuxcycle](linux-cycle.png?width=400px "My image editing skills suck.")
+![linuxcycle](linux-cycle.png?width=400px "*My image editing skills suck.*")
 
 This *seems* unrelated, but I find our current system isn't exactly helping this.
 
@@ -159,9 +159,9 @@ I don't even know for sure how we'd even break this cycle. People *do* use Linux
 
 I've ranted on and on about this, and I still feel I might have glossed over something, but I hope this gives you some idea of why Linux has a problem.
 
-To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users, because they're the *only* source of these bloated UPFs.[^2]
+To summarize, Linux has so many possible choices for everything that developers don't want to even begin to support it all. This means packaging is left to distributions and the community, who make unofficial snaps and flatpaks. Developers have begun to properly support flatpaks and snaps, but they have issues. Software stores are in it to make a quick buck from users because they're the *only* source of these bloated UPFs.[^2]
 
-Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better, and be stable.
+Linux users keep bragging about desktop configs or developers are making another fucking Ubuntu derivative. People fail to realize we have a serious problem with this clusterfuck, and it is stopping Linux from being what it should be, a beacon of freedom. It doesn't have to eclipse Windows, it just has to be better and stable.
 
 Linux is great. It can get better. These tools can improve. Linux can be *the* OS for those who care about their privacy and freedom.
 
