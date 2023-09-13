@@ -7,7 +7,7 @@ draft: false
 comment: true
 toc: true
 reward: false
-pinned: true
+pinned: false
 carousel: true
 series: 
 categories: ['Blog']
