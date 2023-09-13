@@ -1,7 +1,7 @@
 ---
 # type: docs 
 title: Linux Is a Barrier for Developers
-date: 2023-08-27T20:32:18-04:00
+date: 2023-09-09T20:32:18-04:00
 featured: false
 draft: false
 comment: true
