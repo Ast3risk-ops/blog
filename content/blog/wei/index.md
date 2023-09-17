@@ -32,7 +32,7 @@ This clock represents the "time" to humanity's own demise. If you're reading thi
 
 [Currently](https://thebulletin.org/doomsday-clock/current-time/) we are at 90 seconds to midnight. The war in Ukraine, combined with increased climate and nuclear fears, caused this rating.
 
-![time](images/time.webp?width=100px)
+![time](images/time.webp?width=100px "Oh shit.")
 
 
 
@@ -73,7 +73,9 @@ Fake engagement won't go away, Cloudflare and Google's own Safe Browsing service
 All the use cases are not valid, except for <i>maybe</i> the 6<sup>th</sup> one.
 {{< /text/align-start >}}
 
+This also never says *who* would run the verification server, but we know it'll be Google's browser, connecting to Google's verification server.
 
+Basically, if this goes into effect, you won't be able to use extensions Google doesn't like, or even browsers they don't like.
 
 
 ------
