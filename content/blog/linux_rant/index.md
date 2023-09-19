@@ -182,3 +182,7 @@ Until then, I'll stick with Windows.
 
 [^1]: It's under the header "Permissions And Portals" by the way.
 [^2]: **U**niversal **P**ackaging **F**ormat.
+
+------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).

@@ -181,3 +181,7 @@ blendOS Website: [blendos.co](https://blendos.co)
 -------------
 
 ![notbyai](https://asterisk.is-from.space/r/human.png)
+
+-------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).

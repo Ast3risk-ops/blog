@@ -87,3 +87,8 @@ The cover image was AI-generated, but that still makes my text content 100% huma
 You can find the image [here](https://playgroundai.com/post/clkegqaqh00f4s601ucltkj5a). It was created by [Charra l](https://playgroundai.com/profile/cljvgleqe0p78s601elle8bb6).
 
 [^1]: On a side note, I'd like to have that something.
+
+
+-------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).

@@ -24,3 +24,7 @@ Content.
 ------
 
 [![notbyai](https://asterisk.is-from.space/r/human.png)](/about/#generative-ai-chatgpt)
+
+-------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).

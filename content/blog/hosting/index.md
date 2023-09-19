@@ -275,3 +275,8 @@ I'm still here, regretfully for some.
 Note: He never brought this up at UbCon:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1687915864748/c6e0f90a-22ac-4839-8779-087210e669cd.png align="center")
+
+
+-------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).

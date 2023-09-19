@@ -110,3 +110,6 @@ On a side note, EXYQ is currently looking for donators and partners to make excl
 
 
 
+-------
+
+For copyright, please also see the [Licensing page](/about#license-exemptions).
