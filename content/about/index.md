@@ -47,7 +47,7 @@ In each case, you must also follow the other terms of the license, this mainly c
 | ----------- | :-----------: |
 | A YouTube video?     |    Yes, even if it's monetized.    |
 | A podcast?   | Sure, even if there's ads on it.        |
-| Some ChatGPT AdSense post? | **NO.** |
+| An AI-written post (for money or not, doesn't matter)? | **NO.** |
 | A paid blog post/Post on a blog with ads? | [Contact me](/contact). |
 
 I mainly don't want people directly making money from my work. You may quote sections, but you can't just steal the whole thing.
@@ -62,4 +62,8 @@ My content is 100% human-written and will always be that way. As a testament to 
 ![notbyai](https://asterisk.is-from.space/r/human.png)
 
 To learn more, and get this badge for yourself, visit [**notbyai**](https://notbyai.fyi/#not-by-ai-mission).
+
+I also do not want AI using my work. AI cannot write with passion, as it has no intelligence. It just plays word games and creates unoriginal content.
+
+**PLEASE REMOVE MY BLOG FROM AI DATASETS OR AI-WRITTEN POSTS!**
 
