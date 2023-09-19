@@ -39,20 +39,20 @@ If you wish to share/quote the content in this blog (which you are free to do in
 
 - You may not modify the material you are redistributing.
 
-### License Exmeptions
+### License Exemptions
 
-In each case, you must also follow the other terms of the license, this mainly concerns itself with exemtpions to the **NC** (non-commercial) part of the license.
+In each case, you must also follow the other terms of the license, this mainly concerns itself with exemptions to the **NC** (non-commercial) part of the license.
 
 | Can I quote or reference posts on...      |  |
 | ----------- | :-----------: |
 | A YouTube video?     |    Yes, even if it's monetized.    |
-| A podcast?   | Sure, even if there's ads on it.        |
-| An AI-written post (for money or not, doesn't matter)? | **NO.** |
+| A podcast?   | Sure, even if there are ads on it.        |
+| An AI-written post (for money or not, it doesn't matter)? | **NO.** |
 | A paid blog post/Post on a blog with ads? | [Contact me](/contact). |
 
 I mainly don't want people directly making money from my work. You may quote sections, but you can't just steal the whole thing.
 
-However, it is still recommended you [contact me](/contact) if you would like an exemption not covered here or have any licensing questions.
+However, it is still recommended you [contact me](/contact) if you want an exemption not covered here or have any licensing questions.
 
 
 ## Generative AI (ChatGPT)
@@ -63,7 +63,7 @@ My content is 100% human-written and will always be that way. As a testament to 
 
 To learn more, and get this badge for yourself, visit [**notbyai**](https://notbyai.fyi/#not-by-ai-mission).
 
-I also do not want AI using my work. AI cannot write with passion, as it has no intelligence. It just plays word games and creates unoriginal content.
+I also do not want AI to use my work. AI cannot write with passion, as it has no intelligence. It just plays word games and creates unoriginal content.
 
 **PLEASE REMOVE MY BLOG FROM AI DATASETS OR AI-WRITTEN POSTS!**
 
