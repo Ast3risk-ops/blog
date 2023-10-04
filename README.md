@@ -28,11 +28,11 @@ Services used:
         <br/>
     </td>
     <td align="center">
-        <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">
-            <img src="https://asterisk.is-from.space/r/fontawesome-color.svg" width="100px;" alt="Framer Motion"/>
+        <a href="https://getform.io" target="_blank" rel="noopener noreferrer">
+            <img src="https://asterisk.is-from.space/r/getform.webp" width="100px;" alt="Framer Motion"/>
             <br/>
             <sub>
-                <b>FontAwesome</b>
+                <b>Getform</b>
             </sub>
         </a>
         <br/>
