@@ -19,3 +19,13 @@ main:
     url: https://github.com/Ast3risk-ops/blog/discussions/categories/giscus
     params:
       icon: '<i class="fas fa-comments"></i>'
+  - name: Info
+    identifier: info
+    url: /about
+    params:
+      icon: '<i class="fas fa-info-circle"></i>'
+  # - name: Copyright
+    # identifier: copyright
+    # url: /about#copyright
+    # params:
+      # icon: '<i class="far fa-copyright"></i>'
