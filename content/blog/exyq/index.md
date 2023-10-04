@@ -8,7 +8,7 @@ comment: true
 toc: true
 reward: false
 pinned: false
-carousel: true
+carousel: false
 series:
 categories: ['blog']
 tags: ['specific Things', 'Experience']
