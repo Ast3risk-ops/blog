@@ -231,7 +231,11 @@ pwa:
     # description:  # Default to site description.
     # theme_color: 
     # background_color: 
-
+  precache:
+    pages:
+    - /
+    images:
+    - /assets/favicon.png
     # Icons
     # [[pwa.manifest.icons]]
     #   sizes: 96x96
