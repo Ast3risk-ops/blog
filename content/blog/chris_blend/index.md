@@ -35,8 +35,6 @@ The video in question (skip to 4:44):
 	src="https://piped.kavin.rocks/embed/k1RP_TCWeNU?t=286" 
 	fullscreen=false
 	trigger=auto
-	# loadButtonText="Play Video"
-	# loadInfo="This embed contains **3rd-party trackers** from YouTube. By watching this embed you consent to Google's [**Privacy Policy**.](https://policies.google.com/privacy)"
 >}}
 
 Now, I shall begin.
