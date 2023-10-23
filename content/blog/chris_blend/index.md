@@ -32,11 +32,11 @@ The video in question (skip to 4:44):
 
 <!-- Stops youtube's trackers from tracking you right away -->
 {{< iframe 
-	src="https://www.youtube-nocookie.com/embed/k1RP_TCWeNU?si=lPn-		B50tZPvMH21v&amp;start=284" 
+	src="https://piped.kavin.rocks/embed/k1RP_TCWeNU?t=286" 
 	fullscreen=false
-	trigger=manual
-	loadButtonText="Play Video"
-	loadInfo="This embed contains **3rd-party trackers** from YouTube. By watching this embed you consent to Google's [**Privacy Policy**.](https://policies.google.com/privacy)"
+	trigger=auto
+	# loadButtonText="Play Video"
+	# loadInfo="This embed contains **3rd-party trackers** from YouTube. By watching this embed you consent to Google's [**Privacy Policy**.](https://policies.google.com/privacy)"
 >}}
 
 Now, I shall begin.
