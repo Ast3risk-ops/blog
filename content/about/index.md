@@ -66,5 +66,7 @@ To learn more, and get this badge for yourself, visit [**notbyai**](https://notb
 
 I also do not want AI to use my work. AI cannot write with passion, as it has no intelligence. It just plays word games and creates unoriginal content.
 
+![ai-chart](ai-generates-content-using-human-content-white.png "See the problem here? (Credit: notbyai)")
+
 **PLEASE REMOVE MY BLOG FROM AI DATASETS OR AI-WRITTEN POSTS!**
 
