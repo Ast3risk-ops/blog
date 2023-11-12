@@ -27,10 +27,10 @@ First some quick personal stuff. Now, I'm posting this on a Hugo blog, same fram
 
 I am writing this representing the blendOS team in response to a recent video by one Chris Titus Tech (to the Titus Tech Talk channel).
 
-The video in question (skip to 4:44):
+The [video in question](https://youtu.be/k1RP_TCWeNU) (skip to 4:44):
 
 
-<!-- Stops youtube's trackers from tracking you right away -->
+<!-- Piped better than youtube's trackers -->
 {{< iframe 
 	src="https://piped.kavin.rocks/embed/k1RP_TCWeNU?t=286" 
 	fullscreen=false
