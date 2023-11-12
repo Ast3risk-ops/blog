@@ -26,7 +26,7 @@ Some details on the blog:
 
 - Any local image files are hosted on [Cloudflare Pages](https://pages.cloudflare.com) alongside the rest of the site. Cloudflare's [privacy policy](https://www.cloudflare.com/privacypolicy/) applies.
 
-- I use Google ReCAPTCHA to protect the contact form. ReCAPTCHA is subject to Google's [privacy policy](https://policies.google.com/privacy?hl=en).
+<!-- - I use Google ReCAPTCHA to protect the contact form. ReCAPTCHA is subject to Google's [privacy policy](https://policies.google.com/privacy?hl=en). -->
 
 ## Licensing
 
