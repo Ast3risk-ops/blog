@@ -10,7 +10,7 @@ toc = true
 
 Hi there, I'm Asterisk.
 
-My external [about page](https://asterisk.shinken.studio/#about).
+My external [about page](https://ast3risk-ops.carrd.co/#about).
 
 Some details on the blog:
 
