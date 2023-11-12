@@ -9,7 +9,7 @@ params: {
 }
 # See https://hbs.razonyang.com/v1/en/docs/widgets/social-links/.
 social:
-  website: https://asterisk.shinken.studio
+  website: https://ast3risk-ops.carrd.co
   # email: 
   github: ast3risk-ops
   # twitter:
