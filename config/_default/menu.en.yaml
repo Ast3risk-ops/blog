@@ -9,11 +9,11 @@ main:
     url: https://ast3risk-ops.carrd.co
     params:
       icon: '<i class="fas fa-globe"></i>'
-  - name: RSS
-    identifier: rss
-    url: /index.xml
-    params:
-      icon: '<i class="fas fa-rss"></i>'
+  # - name: RSS
+    # identifier: rss
+    # url: /index.xml
+    # params:
+      # icon: '<i class="fas fa-rss"></i>'
   - name: Comments
     identifier: comments
     url: https://github.com/Ast3risk-ops/blog/discussions/categories/giscus
