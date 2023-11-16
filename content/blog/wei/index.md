@@ -22,6 +22,16 @@ We are currently seeing a lot of rules and practices that are putting a shelf li
 
 -----
 
+{{% alert info %}}
+Use of AI
+
+The cover image was AI-generated, but that still makes my text content 100% human. 
+
+You can find the image [here](https://playgroundai.com/post/clkegqaqh00f4s601ucltkj5a). It was created by [Charra l](https://playgroundai.com/profile/cljvgleqe0p78s601elle8bb6).
+{{% /alert %}}
+
+
+
 # Intro: An explainer
 
 This is the Bulletin of The Atomic Scientists' Doomsday Clock:
