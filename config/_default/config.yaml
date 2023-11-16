@@ -10,6 +10,11 @@ defaultContentLanguage: en
 #  - zh-cn
 #  - zh-tw
 paginate: 10
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 # paginatePath: page
 enableRobotsTXT: true
 enableEmoji: true
