@@ -32,7 +32,7 @@ BlendOS v4 is a lot more declarative than v3. The current beta must be installed
 
 {{< alert danger >}}
 {{< alert-heading >}}Do not install this on top of BlendOS v3!{{< /alert-heading >}}
-There is no upgrade procedure <i>yet</i>.
+There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you try to update from it.
 {{< /alert >}}
 
 
