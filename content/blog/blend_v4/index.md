@@ -15,7 +15,7 @@ tags: ['BlendOS', 'Linux']
 images: ['https://cdn.hashnode.com/res/hashnode/image/upload/v1700846244037/cd2cc640-be3a-43af-99b9-a0d253cdf3bc.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp']
 ---
 
-The BlendOS v4 alpha is now out!
+The BlendOS v4 alpha is now out! Here's how you can install and try it out.
 
 <!--more-->
 {{% alert info %}}
