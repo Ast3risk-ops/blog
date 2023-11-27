@@ -30,6 +30,12 @@ I'm not going to go over the release details. For those, go to the [release blog
 BlendOS v4 is a lot more declarative than v3. The current beta must be installed on top of Arch.
 ## What you'll need
 
+{{< alert danger >}}
+{{< alert-heading >}}Do not install this on top of BlendOS v3!{{< /alert-heading >}}
+There is no upgrade procedure <i>yet</i>.
+{{< /alert >}}
+
+
 - An Arch Linux VM (or real PC, if you dare) using `mkinitcpio` for the kernel image, **GRUB** as the bootloader, and no disk encryption. 
 - An internet connection
 - Time
