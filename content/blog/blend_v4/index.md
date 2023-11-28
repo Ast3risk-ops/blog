@@ -36,10 +36,12 @@ There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you 
 {{< /alert >}}
 
 
-- An Arch Linux VM (or real PC, if you dare) using `mkinitcpio` for the kernel image, **GRUB** as the bootloader, and no disk encryption. 
+- An Arch Linux VM (or real PC, if you dare) using `mkinitcpio` for the kernel image, **GRUB** as the bootloader, and no disk encryption[^1]. 
 - An internet connection
 - Time
 - Basic YAML knowledge
+
+[^1]: You can use encryption by moving the `akshara` hook after the `encrypt` one in your `mkinitcpio.conf`, but this has not been tested, and is not officially supported.
 
 ## Steps
 
