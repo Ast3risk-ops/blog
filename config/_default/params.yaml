@@ -174,7 +174,7 @@ giscus:
   repoId: "R_kgDOKKJBHQ" # required.
   category: "Giscus" # required.
   categoryId: "DIC_kwDOKKJBHc4CYycm" # required.
-  # theme: "dark" # Default to auto.
+  theme: "noborder_dark" # Default to auto.
   # mapping: "title" # Default to pathname.
   # inputPosition: "bottom" # Default to top.
   # reactions: false # Disable reactions.
