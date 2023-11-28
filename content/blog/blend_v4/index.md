@@ -133,7 +133,7 @@ package-repos:
 
 {{< alert info >}}
 {{< alert-heading >}}Want to add to this list?{{< /alert-heading >}}
-Just make a comment! I'll look at your repo if you comment it.
+Just make a <a href="#post-comments">comment</a>! I'll look at your repo if you <a href="#post-comments">comment it</a>.
 {{< /alert >}}
 
 
