@@ -28,11 +28,11 @@ Services used:
         <br/>
     </td>
     <td align="center">
-        <a href="https://getform.io" target="_blank" rel="noopener noreferrer">
-            <img src="https://asterisk.is-from.space/r/getform.webp" width="100px;" alt="Framer Motion"/>
+        <a href="https://giscus.app" target="_blank" rel="noopener noreferrer">
+            <img src="https://avatars.githubusercontent.com/u/81452695?s=64&v=8" width="100px;" alt="Giscus"/>
             <br/>
             <sub>
-                <b>Getform</b>
+                <b>Giscus</b>
             </sub>
         </a>
         <br/>
