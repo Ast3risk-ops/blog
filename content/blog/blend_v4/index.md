@@ -129,6 +129,13 @@ package-repos:
 
 {{< alert info >}}Scroll to the next section if you do not wish to customize your config further.{{< /alert >}}
 
+### Track repo
+
+{{< alert info >}}
+{{< alert-heading >}}Want to add to this list?{{< /alert-heading >}}
+Just make a comment! I'll look at your repo if you comment it.
+{{< /alert >}}
+
 
 Currently there are also alternate track repos:
 
