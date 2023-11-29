@@ -49,7 +49,7 @@ There is no upgrade procedure <i>yet</i>, this will ruin your v3 install if you 
 
 ### Add the `breakfast` repo
 
-At the end of your `pacman.conf` add the following lines:
+At the end of your `/etc/pacman.conf` add the following lines:
 
 ```ini
  [breakfast]
@@ -179,7 +179,7 @@ Run `sudo pacman -Sy akshara`.
 
 ### Adding `akshara` into `mkinitcpio`
 
-Edit `/etc/mkinitcpio` and add `akshara` after the `base udev` bit in the `HOOKS` part of the file.
+Edit `/etc/mkinitcpio.conf` and add `akshara` after the `base udev` bit in the `HOOKS` part of the file.
 
 Run `sudo mkinitcpio -P; sudo akshara update`.
 
