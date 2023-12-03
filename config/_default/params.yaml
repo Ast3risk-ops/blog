@@ -245,7 +245,7 @@ pwa:
     #   src: /images/icons/icon-144x144.png
 
 contact:
-  endpoint: https://getform.io/f/47d9f422-3da7-40f3-8cc4-6751e82032c5 # Backend endpoint, remove this line if you're using Netlify.
+  endpoint: https://getform.io/f/55ecfc38-3761-462c-8996-a0b173788a9f # Backend endpoint, remove this line if you're using Netlify.
   file: true # Enable file upload
   # fileField: image # The name of file field.
   # reCaptcha:
