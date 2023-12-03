@@ -248,8 +248,8 @@ contact:
   endpoint: https://getform.io/f/55ecfc38-3761-462c-8996-a0b173788a9f # Backend endpoint, remove this line if you're using Netlify.
   file: true # Enable file upload
   # fileField: image # The name of file field.
-  # reCaptcha:
-    # siteKey: "6Lcr4kMoAAAAAEruDE5RPCVW8kRrh-ZGF6OGLCx6"
+  reCaptcha:
+    siteKey: "6Ld-VyQpAAAAANIKhccZj6Q2wB5ebpAdxMBFeG0H"
 
 repo:
   url: https://github.com/ast3risk-ops/blog

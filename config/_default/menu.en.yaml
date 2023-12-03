@@ -24,6 +24,11 @@ main:
     url: /about
     params:
       icon: '<i class="fas fa-info-circle"></i>'
+  - name: Contact
+    identifier: contact
+    url: /contact
+    params:
+      icon: '<i class="fas fa-envelope"></i>'
   # - name: Copyright
     # identifier: copyright
     # url: /about#copyright
