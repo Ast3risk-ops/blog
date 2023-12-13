@@ -127,7 +127,7 @@ package-repos:
 
 ## Configuration customization
 
-{{< alert info >}}Scroll to the next section if you do not wish to customize your config further.{{< /alert >}}
+{{< alert info >}}Scroll to the <a href="#steps-contd">next section</a> if you do not wish to customize your config further.{{< /alert >}}
 
 ### Track repo
 
