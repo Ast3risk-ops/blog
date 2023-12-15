@@ -3,3 +3,7 @@ User-agent: GPTBot
 Disallow: {{ .RelPermalink }}
 {{ end }}
 Disallow: /
+
+User-agent: Google-Extended
+
+Disallow: /
