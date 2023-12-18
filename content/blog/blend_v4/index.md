@@ -62,7 +62,7 @@ If you'd like to browse our small repo, [feel free to do so](https://pkg-repo.bl
 
 ### Create your system config
 
-Create a file in `/` named `system.yaml`
+Create a file in `/` named `system.yaml`.
 
 Avalible tracks on the [standard repo](https://github.com/blend-os/tracks):
 
@@ -85,6 +85,7 @@ Some codeblocks may require expanding.
 ![code](code.png)
 {{% /alert %}}
 
+Add the following to it (or something similar):
 
 ```yaml
  # /system.yaml
