@@ -15,7 +15,7 @@ keywords: Blog
 
 logo: images/asterisk_ext.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: The * Blog
+brand: Asterisk's Blog
 
 palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.

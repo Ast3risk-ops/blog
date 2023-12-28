@@ -1,5 +1,5 @@
 baseURL: /
-title: The * Blog
+title: Asterisk's Blog
 theme: github.com/razonyang/hugo-theme-bootstrap
 copyright: 'Copyright © 2023-{year} Asterisk.'
 defaultContentLanguage: en
