@@ -210,9 +210,14 @@ If you add repos, run `sudo akshara update` and reboot afterwards.
 
 ### Adding AUR packages
 
-We're hoping to make this easier with this [merge request](https://git.blendos.co/blendOS/system-tools/akshara/-/merge_requests/1).
+Add stuff under the `aur-packages` tag. They will be installed via `paru` automatically (paru is in our repo, don't add it as a package here). You will need to run `sudo akshara update` a lot more often.
 
-If you know what you're doing, you can attempt to install AUR packages manually by adding stuff to the `commands:` section of `system.yaml`.
+```yaml
+aur-packages:
+  - '1'
+  - '2'
+```
+
 
 ## Reference
 
@@ -231,26 +236,150 @@ Some codeblocks may require expanding.
 repo: 'https://pkg-repo.blendos.co' # Do not change this.
 
 # the track repo
-impl: 'https://github.com/USER/REPO/raw/BRANCH' # For gitlab, https://GITLAB_SERVER/USER/REPO/-/raw/BRANCH/
+impl: 'https://github.com/USER/REPO/raw/BRANCH'
 
 track: 'plasma' # The track you want
 
 packages:       # Packages to install using pacman
   - 'package_1'
   - 'package_2'
+  
+aur-packages:   # AUR packages, installed via paru
+  - 'package_1-git'
+  - 'package_2-bin'
 
 services:       # Enable these systemd services
   - 'service_1'
 
-package_repos:
+package-repos:
   - name: 'REPO_NAME' # as it appears in pacman.conf
     repo-url: 'REPO_URL' # the Server variable in pacman.conf for this repo
+
 
 commands:       # List of commands to run at system build, will execute with root permissions, more file-related stuff like git is tricky
   - 'echo command_1'
   - 'echo command_2'
 
 ```
+
+#### `repo`
+
+{{< alert info >}}Default: <code>https://pkg-repo.blendos.co</code>{{< /alert >}}
+{{< alert warning >}} This option must be set.{{< /alert >}}
+
+**Type: string value**
+
+Don't change this. Repo where the core blendOS packages (and `akshara`) are stored.
+
+
+
+#### `impl`
+
+{{< alert info >}}Default: <code>https://github.com/blend-os/tracks/raw/main</code>{{< /alert >}}
+{{< alert warning >}} This option must be set.{{< /alert >}}
+
+**Type: string value**
+
+The repo where the tracks are.
+
+**Adding custom track repos:**
+
+Your repo must have a series of YAML files, look at the [main track repo](https://github.com/blend-os/tracks) for examples.
+
+Your base track must have a `track:` of `custom`, as shown [here](https://github.com/blend-os/tracks/blob/main/blendos-base.yaml). Desktop tracks must have their track set to your base track.
+
+Tracks are like mini `system.yaml` files, and have the same structure.
+
+The easiest way to get started is to just fork the main repo, but `impl` URL structures for common Git forges are shown below:
+
+{{% alert info %}}
+**Common git forges:**
+
+GitHub: `https://github.com/USER/REPO/raw/BRANCH`
+
+GitLab: `https://GITLAB-SERVER/USER/REPO/-/raw/BRANCH`
+
+Gitea/Forgejo (i.e. Codeberg): `https://GITEA-SERVER/USER/REPO/raw/branch/BRANCH`
+
+BitBucket Cloud (Not Recommended): `https://bitbucket.org/USER/REPO/raw/FULL_COMMIT_HASH/`[^2]
+{{% /alert %}}
+
+#### `track`
+
+{{< alert info >}}Default: <code>blendos-base</code>{{< /alert >}}
+{{< alert warning >}} This option must be set.{{< /alert >}}
+
+**Type: string value**
+
+The track yaml file, without the extension (i.e. `blendos-base.yaml` -> `track: blendos-base`).
+
+#### `packages`
+{{< alert info >}}Default: none, can be provided by track.{{< /alert >}}
+
+**Type: array**
+
+Add packages to install from the repos (including set custom ones) via `pacman`, one per-line.
+
+```yaml
+packages:
+  - '1'
+  - '2'
+```
+
+#### `aur-packages`
+{{< alert info >}}Default: none, can be provided by track.{{< /alert >}}
+
+**Type: array**
+
+Same as [`packages`](#packages), but for packages from the AUR.
+
+```yaml
+aur-packages:
+  - '1-bin'
+  - '2-git'
+```
+
+#### `services`
+{{< alert info >}}Default: none, can be provided by track.{{< /alert >}}
+
+**Type: array**
+
+Services to start via `systemd`.
+
+```yaml
+services:
+  - 'service-1'
+  - 'socket-2.socket'
+```
+
+#### `custom-repos`
+{{< alert info >}}Default: none, can be provided by track.{{< /alert >}}
+
+**Type: object array**
+
+Custom repos to add. Consists of their name and URL as they would appear in pacman.conf.
+
+```yaml
+custom-repos:
+  - name: 'NAME'
+    url: 'MAIN_REPO_URL'
+```
+
+Support for mirror*lists* is coming in the future. For now, you can just pick a mirror or use a geolocator URL if applicable.
+
+#### `commands`
+{{< alert info >}}Default: none, can be provided by track.{{< /alert >}}
+
+**Type: array**
+
+Commands to be run at system build, run as root.
+
+```yaml
+commands:
+  - 'echo 1'
+  - 'echo 2'
+```
+
 
 
 ### `akshara`
@@ -285,3 +414,5 @@ akshara version
 -------
 
 For copyright, please also see the [Licensing page](/about#license-exemptions).
+
+[^2]: For BitBucket, you must add all the track files in ONE COMMIT, and use that commit's full hash.
