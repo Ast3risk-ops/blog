@@ -73,7 +73,7 @@ Avalible tracks on the [standard repo](https://github.com/blend-os/tracks):
 - `lxqt`
 - `blendos-base` \* Kinda bloated for a base, if you want something stripped down, [see below](#configuration-customization). This track allows for custom desktops and more.
 
-{{< alert info >}}Support for an <code>aur_packages:</code> option is <a href="#adding-aur-packages">**now available**</a>.{{< /alert >}}
+{{< alert info >}}Support for an <code>aur_packages:</code> option is <a href="#adding-aur-packages"><b>now available</b></a>.{{< /alert >}}
 
 This is YAML so indentation is important. All indents are 2 *spaces* (no tabs).
 
