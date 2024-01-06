@@ -64,7 +64,8 @@ If you'd like to browse our small repo, [feel free to do so](https://pkg-repo.bl
 
 Create a file in `/` named `system.yaml`.
 
-Avalible tracks on the [standard repo](https://github.com/blend-os/tracks):
+{{% alert info %}}
+**Avalible tracks on the [standard repo](https://github.com/blend-os/tracks)**:
 
 - `plasma`
 - `gnome`
@@ -72,8 +73,9 @@ Avalible tracks on the [standard repo](https://github.com/blend-os/tracks):
 - `mate`
 - `lxqt`
 - `blendos-base` \* Kinda bloated for a base, if you want something stripped down, [see below](#configuration-customization). This track allows for custom desktops and more.
+{{% /alert %}}
 
-{{< alert info >}}Support for an <code>aur_packages:</code> option is <a href="#adding-aur-packages">**now avalible**</a>.{{< /alert >}}
+{{< alert info >}}Support for an <code>aur_packages:</code> option is <a href="#adding-aur-packages"><b>now available</b></a>.{{< /alert >}}
 
 This is YAML so indentation is important. All indents are 2 *spaces* (no tabs).
 
@@ -105,7 +107,7 @@ Add the following to it (or something similar):
  #   - 'nvidia-dkms' if you're using an NVIDIA GPU
 ```
 
-You can add repos and things to this file, as documented [here](https://github.com/blend-os/tracks/blob/main/README.md#example-gnome-systemyaml-with-caddy):
+You can add repos and things to this file, as documented [here](#systemyaml):
 
 ```yaml
 repo: 'https://pkg-repo.blendos.co/'
