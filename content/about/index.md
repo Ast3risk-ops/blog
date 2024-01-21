@@ -28,8 +28,6 @@ Some details on the blog:
 
 - The contact form is powered by [GetForm](https://getform.io) and is subject to their [privacy policy](https://getform.io/legal/privacy-policy).
 
-- I use Google ReCAPTCHA to protect the contact form. ReCAPTCHA is subject to Google's [privacy policy](https://policies.google.com/privacy?hl=en).
-
 ## Licensing
 
 My content is under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en). Here's a summary of the license:
